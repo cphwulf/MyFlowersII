@@ -1,3 +1,5 @@
+package Model;
+
 public class Blomst {
     String name;
     int pris;
@@ -26,3 +28,15 @@ public class Blomst {
 
     }
 }
+/*
+@startuml
+class Blomst {
+- name:String
+- pris:int
+--
++ Blomst()
+--
++ setPris():void
+}
+@enduml
+ */

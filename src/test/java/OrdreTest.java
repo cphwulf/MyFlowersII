@@ -1,11 +1,15 @@
+import Model.*;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
 public class OrdreTest {
-    Ordre  ordre;
+    Ordre ordre;
     Blomst blomst;
+    ArrayList<Blomst> blomster;
     Adresse adresse;
     Buket buket;
     Tilbehør tilbehør;
@@ -15,7 +19,8 @@ public class OrdreTest {
         blomst = new Blomst("Rose");
         adresse = null;
         tilbehør = new Tilbehør("Mos");
-        buket = new Buket(blomst,tilbehør);
+        blomster.add(blomst);
+        buket = new Buket(blomster,tilbehør);
         buket.setPris();
         ordre = new Ordre();
         ordre.setBuket(buket);

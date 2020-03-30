@@ -1,5 +1,8 @@
+package Model;
+
 public class Ordre {
     static int orderCounter=12200;
+    String customer;
     Buket buket;
     Adresse adresse;
     int ordreId;
@@ -10,6 +13,14 @@ public class Ordre {
         orderCounter++;
     }
 
+    public String getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(String customer) {
+        this.customer = customer;
+    }
+
     public void setPris() {
         int tmpPris = 0;
         tmpPris = buket.getPris();
@@ -17,6 +28,22 @@ public class Ordre {
             tmpPris = tmpPris + 140;
         }
         this.pris=tmpPris;
+    }
+
+    public static int getOrderCounter() {
+        return orderCounter;
+    }
+
+    public Buket getBuket() {
+        return buket;
+    }
+
+    public Adresse getAdresse() {
+        return adresse;
+    }
+
+    public int getOrdreId() {
+        return ordreId;
     }
 
     public int getPris() {

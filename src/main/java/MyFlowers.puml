@@ -1,0 +1,94 @@
+@startuml
+class OrdreHandler {
+--
+--
++ markOrdreDone(Ordre):boolean
++ cancelOrdre(Ordre):boolean
++ changeOrdre(Ordre):boolean
++ showOrdre(Ordre):void
++ submitOrderToBestilling(Ordre):void
++ submitOrdersToFile(File):void
++ getRevenu(File):
++ getFlowersFromFile(File):
+
+}
+class MainController {
+- view : View
+- bestillinger : ArrayList<Ordre>
+- flowers : ArrayList<String>
+- myBlomster:  ArrayList<Blomst>
+- handler: OrdreHandler
+--
+--
+run() : void
+
+}
+
+class View {
+--
+--
+showFlowers() : void
+getTilbehør() : String
+}
+class Tilbehør {
+- name:String
+- pris:int
+--
++ Tilbehør()
+--
++ setPris():void
+}
+class Adresse{
+}
+class Bestillinger{
+- ordrer:ArrayList<Ordre>
+- dato:LocalDate
+--
+--
++ getOrders():ArrayList<Ordre>
++ addOrder(Ordre):void
+}
+class Blomst {
+- name:String
+- pris:int
+--
++ Blomst()
+--
++ setPris():void
+}
+class Ordre {
+- {static} OrderCouter : int = 1200
+- buket:Buket
+- adresse:Adresse
+- ordreId:int
+- ordreStatus:String
+- bestillingstid:LocalDateTime
+- pris:int
+--
++ Ordre()
+--
++ setPris():void
++ getPris():int
++ getBuket():Buket
+}
+class Buket {
+- blomster:ArrayList<blomst>
+- tilbehør:Tilbehør
+- pris:int
+--
++ Buket(Blomst,Tilbehør)
+--
++ setPris():void
++ getBlomster():blomster
+}
+MainController *-- View
+MainController *-- Bestillinger
+MainController *-- OrdreHandler
+Bestillinger *-- Ordre
+Buket *-- Blomst
+Buket o-- Tilbehør
+Ordre *-- Buket
+Ordre o-- Adresse
+
+
+@enduml

@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de740e38-9836-4042-9d47-aed8f068e319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adresse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Buket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ordre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BlomstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrdreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/OrdreHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/customerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Bestillinger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyFlowers.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/SystemUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Model/BuketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Blomst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Blomst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Adresse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Blomst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Blomst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Buket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Buket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tilbehør.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tilbehør.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Blomst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Blomst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ordre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Ordre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tilbehør.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Tilbehør.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlomstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlomstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrdreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrdreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Adresse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Blomst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Buket.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Ordre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tilbehør.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BlomstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BlomstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OrdreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OrdreTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +39,15 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="UML Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,23 +69,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlomstTest">
+  <component name="RunManager" selected="JUnit.BuketTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Controller.Main" />
       <module name="MyFlowers" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -85,6 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BuketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyFlowers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.BuketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrdreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyFlowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuketTest" />
         <item itemvalue="JUnit.BlomstTest" />
         <item itemvalue="JUnit.OrdreTest" />
         <item itemvalue="Application.Main" />
@@ -125,7 +163,13 @@
       <option name="presentableId" value="Default" />
       <updated>1584948380725</updated>
       <workItem from="1584948382657" duration="93000" />
-      <workItem from="1584950710171" duration="9309000" />
+      <workItem from="1584950710171" duration="11365000" />
+      <workItem from="1585043575859" duration="2493000" />
+      <workItem from="1585230148805" duration="928000" />
+      <workItem from="1585474760660" duration="4541000" />
+      <workItem from="1585513113565" duration="367000" />
+      <workItem from="1585513515126" duration="10124000" />
+      <workItem from="1585560498032" duration="6915000" />
     </task>
     <servers />
   </component>
@@ -133,58 +177,98 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2152" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1584960058848">
+    <state x="2152" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1585565597060">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="2152" y="213" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585565597060" />
     <state x="2152" y="213" key="#com.intellij.ide.util.MemberChooser/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960058848" />
+    <state x="2152" y="213" key="#com.intellij.ide.util.MemberChooser/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585562083860" />
     <state x="1989" y="180" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584960626176">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1989" y="180" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584948393497" />
     <state x="1989" y="180" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960626176" />
-    <state width="1676" height="257" key="GridCell.Tab.0.bottom" timestamp="1584961878103">
+    <state x="2124" y="373" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585559668284">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="2124" y="373" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585559668284" />
+    <state width="1434" height="260" key="GridCell.Tab.0.bottom" timestamp="1585479198804">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1434" height="260" key="GridCell.Tab.0.bottom/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479198804" />
     <state width="1676" height="257" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961878103" />
     <state width="1676" height="318" key="GridCell.Tab.0.bottom/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975809" />
-    <state width="1676" height="257" key="GridCell.Tab.0.center" timestamp="1584961878102">
+    <state width="1434" height="260" key="GridCell.Tab.0.center" timestamp="1585479198802">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="260" key="GridCell.Tab.0.center/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479198802" />
     <state width="1676" height="257" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961878102" />
     <state width="1676" height="318" key="GridCell.Tab.0.center/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975807" />
-    <state width="1676" height="257" key="GridCell.Tab.0.left" timestamp="1584961878100">
+    <state width="1434" height="260" key="GridCell.Tab.0.left" timestamp="1585479198801">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="260" key="GridCell.Tab.0.left/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479198801" />
     <state width="1676" height="257" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961878100" />
     <state width="1676" height="318" key="GridCell.Tab.0.left/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975806" />
-    <state width="1676" height="257" key="GridCell.Tab.0.right" timestamp="1584961878103">
+    <state width="1434" height="260" key="GridCell.Tab.0.right" timestamp="1585479198803">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="260" key="GridCell.Tab.0.right/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479198803" />
     <state width="1676" height="257" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961878103" />
     <state width="1676" height="318" key="GridCell.Tab.0.right/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975808" />
-    <state width="1676" height="318" key="GridCell.Tab.1.bottom" timestamp="1584961198772">
+    <state width="1434" height="322" key="GridCell.Tab.1.bottom" timestamp="1585479059941">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="322" key="GridCell.Tab.1.bottom/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479059941" />
     <state width="1676" height="318" key="GridCell.Tab.1.bottom/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961198772" />
     <state width="1676" height="318" key="GridCell.Tab.1.bottom/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975150" />
-    <state width="1676" height="318" key="GridCell.Tab.1.center" timestamp="1584961198770">
+    <state width="1434" height="322" key="GridCell.Tab.1.center" timestamp="1585479059937">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="322" key="GridCell.Tab.1.center/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479059937" />
     <state width="1676" height="318" key="GridCell.Tab.1.center/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961198770" />
     <state width="1676" height="318" key="GridCell.Tab.1.center/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975140" />
-    <state width="1676" height="318" key="GridCell.Tab.1.left" timestamp="1584961198769">
+    <state width="1434" height="322" key="GridCell.Tab.1.left" timestamp="1585479059936">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="322" key="GridCell.Tab.1.left/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479059936" />
     <state width="1676" height="318" key="GridCell.Tab.1.left/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961198769" />
     <state width="1676" height="318" key="GridCell.Tab.1.left/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975139" />
-    <state width="1676" height="318" key="GridCell.Tab.1.right" timestamp="1584961198771">
+    <state width="1434" height="322" key="GridCell.Tab.1.right" timestamp="1585479059938">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1434" height="322" key="GridCell.Tab.1.right/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585479059938" />
     <state width="1676" height="318" key="GridCell.Tab.1.right/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961198771" />
     <state width="1676" height="318" key="GridCell.Tab.1.right/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584960975144" />
-    <state x="2057" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584961717916">
+    <state x="1755" y="147" key="SettingsEditor" timestamp="1585513485836">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="1755" y="147" key="SettingsEditor/0.23.1440.830/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585513485836" />
+    <state x="1941" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1585513514989">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="376" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1585043575887" />
+    <state x="1941" y="340" key="com.intellij.ide.util.TipDialog/0.23.1440.830/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585513514989" />
+    <state x="2057" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585478252146">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2057" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585478252146" />
     <state x="2057" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.833/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584961717916" />
+    <state x="1984" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1585557349593">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1984" y="236" width="670" height="676" key="search.everywhere.popup/0.23.1440.831/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585478073440" />
+    <state x="1984" y="236" width="670" height="676" key="search.everywhere.popup/0.23.1440.834/1440.23.1920.1057@1440.23.1920.1057" timestamp="1585557349593" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Model/BuketTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
